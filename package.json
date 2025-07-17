@@ -1,0 +1,20 @@
+{
+  "name": "task-manager-app",
+  "version": "1.0.0",
+  "description": "An app that manages your day-to-day tasks with features like calendar and task tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start index.js"
+  },
+  "author": "Code-with-Desy",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.9"
+  }
+}
